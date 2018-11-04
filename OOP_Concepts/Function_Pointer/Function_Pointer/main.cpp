@@ -8,8 +8,12 @@
 
 #include <iostream>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+void Hello(){
+    std::cout << "Hello" << std::endl;
+}
+
+int main(){
+    typedef void(*f_type)();
+    f_type  function = Hello;
+    function();
 }
