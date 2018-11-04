@@ -30,3 +30,13 @@
 *.exe
 *.out
 *.app
+
+# MacOS files
+.DS_Store
+ 
+# Xcode files
+*.xcuserstate
+*.xcworkspace
+*.pbxproj
+*.plist
+*.xcbkptlist
