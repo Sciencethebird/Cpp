@@ -35,6 +35,7 @@
 .DS_Store
  
 # Xcode files
+
 *.xcuserstate
 *.xcworkspace
 *.pbxproj
