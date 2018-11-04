@@ -54,3 +54,20 @@ int main(){
     std::vector<int> values = {1,5,2,6,7,4,3};
     ForEach(values, PrintValue);
 }
+///output
+/*
+ 7Hello
+ Function
+ 69Hello
+ Function
+ 69LMAO
+ Function
+ 87
+ Value: 1
+ Value: 5
+ Value: 2
+ Value: 6
+ Value: 7
+ Value: 4
+ Value: 3
+ */
