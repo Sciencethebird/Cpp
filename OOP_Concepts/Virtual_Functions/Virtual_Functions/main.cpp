@@ -10,11 +10,14 @@
 #include <iostream>
 #include <string>
 using namespace std;
+
+//BASE CLASS
 class Entity{
 public:
-    virtual std::string GetName(){return "Entity";}
+    virtual std::string GetName(){return "Entity";} //
 };
 
+//DERIVED CLASS
 class Player: public Entity
 {
 private:
@@ -24,6 +27,8 @@ public:
     :m_Name(name){}
     std::string GetName() override {return m_Name;}
 };
+
+
 int main(){
     Entity P0;
     Player P1("Hello");
