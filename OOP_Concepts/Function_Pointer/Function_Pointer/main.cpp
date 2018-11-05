@@ -11,37 +11,40 @@
 #include <iostream>
 #include <vector>
 
-// A.Function Pointer
+
+// A.Functions
 void Hello(int a){
     std::cout << a << "Hello" << std::endl;
 }
 void LMAO(int a){
     std::cout << a << "LMAO" << std::endl;
 }
-
-/// B.Function Pointer Vector
+/// B.Functions with Vector
 void PrintValue(int value){
     std::cout << "Value: " << value << std::endl;
 }
+
+
+/// A.Function that eats functions
+void Print(int a, void(*function)(int)){
+    std::cout << "Function" << std::endl;
+    function(a);
+}
+/// B.Functions that eats functions with vector
 void ForEach(const std::vector<int>& values, void(*func)(int)){
     for(int value : values)
         func(value);
 }
 
-/// Function that eats functions
-void Print(int a, void(*function)(int)){
-    std::cout << "Function" << std::endl;
-    function(a);
-}
 
 int main(){
     
-    //Function Pointer Declaration
+    //How to declare a pointer that points to a function
     typedef void(*f_type)(int);
     f_type  function = Hello;
     function(7);
     
-    //A.Function Pointer
+    //A.
     Print(69, Hello);
     Print(69, LMAO);
     
@@ -50,7 +53,7 @@ int main(){
     [](int a){std::cout << a<< std::endl;}
     );
     
-    //B.Function Pointer Vector
+    //B.
     std::vector<int> values = {1,5,2,6,7,4,3};
     ForEach(values, PrintValue);
 }
