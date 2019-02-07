@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{911E67C6-3D85-4FCE-B560-20A9C3E3FF48}") = "Poker!_Playground", "Poker!_Playground.exe", "{6C7CB5DF-1F3E-4CB9-96A5-AF70794A8861}"
+	ProjectSection(DebuggerProjectSystem) = preProject
+		PortSupplier = 00000000-0000-0000-0000-000000000000
+		Executable = C:\Users\李頤\Desktop\競技程式(一)\Week#4\Poker!_Playground.exe
+		RemoteMachine = DESKTOP-K4G05R9
+		StartingDirectory = C:\Users\李頤\Desktop\競技程式(一)\Week#4
+		Environment = 預設
+		LaunchingEngine = 00000000-0000-0000-0000-000000000000
+		UseLegacyDebugEngines = No
+		LaunchSQLEngine = No
+		AttachLaunchAction = No
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C7CB5DF-1F3E-4CB9-96A5-AF70794A8861}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A29C144F-131D-4143-A7F2-E19CFBA9EEC7}
+	EndGlobalSection
+EndGlobal

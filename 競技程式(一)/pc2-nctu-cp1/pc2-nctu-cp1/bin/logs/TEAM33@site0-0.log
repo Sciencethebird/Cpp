@@ -1,0 +1,24 @@
+180428 201900.723|CONFIG|AWT-EventQueue-0|setFileHandlers|Now logging to C:\Users\§õÀ[\Desktop\pc2-nctu-cp1\pc2-nctu-cp1\bin\logs directory.
+180428 201900.723|INFO|AWT-EventQueue-0|info|
+180428 201900.723|INFO|AWT-EventQueue-0|info|Version 9.5.3 20180207 (Wednesday, February 7th 2018 04:25 UTC) Java ver 1.8.0_161 build 4653 Windows 10 10.0 (x86) 
+180428 201900.723|INFO|AWT-EventQueue-0|info|Login: team33 (aka team33)
+180428 201900.723|INFO|AWT-EventQueue-0|startLog|Working directory is C:\Users\§õÀ[\Desktop\pc2-nctu-cp1\pc2-nctu-cp1\bin
+180428 201900.723|INFO|AWT-EventQueue-0|startLog|Process id is 3544@DESKTOP-K4G05R9
+180428 201900.723|INFO|AWT-EventQueue-0|info|Contacting server at 140.113.200.125:50002 as TEAM33 @ site 0
+180428 201900.723|INFO|AWT-EventQueue-0|info|sendLoginRequest start - sending from TEAM33 @ site 0
+180428 201900.723|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[LOGIN_REQUEST] #1 TEAM33 @ site 0 -> SERVER0 @ site 0
+180428 201900.723|INFO|Thread-4|run|send(Serializable)
+180428 201900.739|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[LOGIN_REQUEST] #1 TEAM33 @ site 0 -> SERVER0 @ site 0
+180428 201900.739|INFO|AWT-EventQueue-0|info|sendLoginRequest end - packet sent.
+180428 201900.801|INFO|Thread-1|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+180428 201900.801|INFO|Thread-5|info| receiveObject(S) start got Packet[LOGIN_FAILED] #726 SERVER0 @ site 1 -> TEAM33 @ site 0
+180428 201900.801|INFO|Thread-5|dumpPacket|Packet LOGIN_FAILED (Seq #726 ) recieveObject
+180428 201900.801|INFO|Thread-5|dumpPacket|  From: SERVER0 @ site 1 (MZ-XEON @ 127.0.1.1) (Contest Id: Default-8703459967009259949)
+180428 201900.801|INFO|Thread-5|dumpPacket|    To: TEAM33 @ site 0
+180428 201900.801|INFO|Thread-5|dumpPacket|   key: MESSAGE_STRING is: java.lang.String Invalid password
+180428 201900.801|INFO|Thread-5|info|handlePacket start Packet[LOGIN_FAILED] #726 SERVER0 @ site 1 -> TEAM33 @ site 0
+180428 201900.801|INFO|Thread-5|dumpPacket|Packet LOGIN_FAILED (Seq #726 ) handlePacket
+180428 201900.801|INFO|Thread-5|dumpPacket|  From: SERVER0 @ site 1 (MZ-XEON @ 127.0.1.1) (Contest Id: Default-8703459967009259949)
+180428 201900.801|INFO|Thread-5|dumpPacket|    To: TEAM33 @ site 0
+180428 201900.801|INFO|Thread-5|dumpPacket|   key: MESSAGE_STRING is: java.lang.String Invalid password
+180428 201902.692|INFO|Thread-5|info| receiveObject(S) end   got Packet[LOGIN_FAILED] #726 SERVER0 @ site 1 -> TEAM33 @ site 0
