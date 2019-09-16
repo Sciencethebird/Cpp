@@ -19,13 +19,15 @@ CE-Net : Context Encoder Network for 2D  Medical Image Segmentation
 </p>
 
 ##### -  Atrous Convolution (Dilated Convolution)
+<p align="center">
 <img src="https://github.com/MEL-NCTU/Weekly-sharing-/blob/master/Paper_sharing/Images/CE-Net_atrous.PNG?raw=true" alt="drawing" width="400"/>
      ![]()
-
+</p>
      
 * ### Residual Multi-kernal Pooling (RMP)
+<p align="center">
  <img src="https://github.com/MEL-NCTU/Weekly-sharing-/blob/master/Paper_sharing/Images/CE-Net_RMP.PNG?raw=true" alt="drawing" width="400"/>
-
+</p>
 
 ---
 
